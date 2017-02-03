@@ -11,7 +11,7 @@ const MainContainer = React.createClass({
         <h1>Heyyy from Boilerplate!!</h1>
         <button onClick={this.testFn}>Test here</button>
         {this.props.children}
-        <h1><Test Here/h1>
+        <h1><Test Here 1/h1>
       </div>
     )
   }
