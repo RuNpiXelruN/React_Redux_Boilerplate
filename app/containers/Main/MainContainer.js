@@ -1,9 +1,18 @@
 import React from 'react'
+import { AuthFormContainer } from 'containers'
 
 const MainContainer = React.createClass({
+  testFn: function() {
+    console.log('hittttt');
+  },
   render () {
     return (
-      <h1>Heyyy from Boilerplate!!</h1>
+      <div>
+        <h1>Heyyy from Boilerplate!!</h1>
+        <button onClick={this.testFn}>Test here</button>
+        {this.props.children}
+        <h1><Test Here/h1>
+      </div>
     )
   }
 })
